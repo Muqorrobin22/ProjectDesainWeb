@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header */
+#header{
+    background-image: url('../img/Header.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.navbar-brand img{
+    width: 80px;
+}
+
+.navbar-toggler{
+    outline: 0;
+    border: none;
+}
+
+.nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+    /* text-align: center; */
+}
+.nav-item .nav-link:hover {
+    transform: translateY(-5px);
+}
+
+
+
+#landingpage p {
+    font-weight: 600;
+    margin-bottom: 2%;
+    margin-top: 10%;
+    font-size: 16px;
+}
+
+#landingpage h3{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+
+
+/* End Header */
+
+
+/* Main */
+#main .row {
+
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#main .row .col-md-4{
+    margin: 20px 0;
+}
+
+.card .fas{
+    font-size: 50px;
+}
+
+.card .card-title{
+    font-weight: 800;
+    margin: 40px 0 20px 0;
+}
+.card .card-text{
+    font-weight: 200;
+    margin: 0 0 40px 0;
+}
+
+/* End Main */
+
+/* Content */
+
+#content {
+    background-color: rgb(233, 233, 233);
+}
+
+#content .col-md-6 h3{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+#content .col-md-6 p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+#content img{
+    width: 100%;
+}
+
+/* End Content */
+
+/* content2 */
+
+#content2{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+/* end content 2 */
+
+/* content 3 */
+#content3{
+    background-image: url(../img/footer2.jpg ) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#content3 .col-md-6 h3{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+#content3 .col-md-6 p{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+#content3 .btn{
+    margin-top: 10px;
+}
+
+.progress-bar-section .tulisan h3{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.progress-bar-section .progress{
+    background-color: rgba(255, 254, 254, 0.247);
+    height: 10px;
+}
+
+.progress .progress-bar{
+    background-color: white;
+}
+
+/* end content 3 */
+
+
+/* Footer */
+
+#footer {
+    background-color: rgb(48, 43, 43);
+}
+
+#footer img {
+    width: 100px;
+}
+
+#footer .menu-footer{
+    margin-top: 50px;
+}
+
+#footer p{
+    font-weight: 200;
+    color: white;
+    margin: 70px 0;
+}
+#footer .social a{
+    margin-right: 10px;
+}
+#footer .social .fab {
+    font-size: 30px;
+    color: white;
+    transition: 0.2s;
+}
+
+#footer .social .fab:hover {
+    transform: translateY(-5px);
+}
+
+#footer .menu-footer h3 {
+    font-weight: 800;
+    color: white;
+}
+
+#footer .menu-p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer .menu-footer ul  {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+#footer .menu-footer ul li {
+    margin-bottom: 10px;
+}
+
+/* End Footer */
+
+
+/* Copyright */
+
+#copyright {
+    background-color: rgb(39, 36, 36);
+}
+
+#copyright p{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: 200;
+    padding: 20px;
+}
+/* End Copyrigght */
+
+@media screen and (max-width: 950px){
+    #header{
+        height: 100vh;
+    }
+    #landingpage p {
+        font-size: 14px;
+    }
+    #landingpage h3 {
+        font-size: 60px;
+    }
+
+    #content img{
+        margin-top: 70px;
+    }
+
+
+
+}
+@media screen and (max-width: 705px){
+   
+    #header {
+        text-align: center;
+    }
+
+    #landingpage p {
+        font-size: 14px;
+    }
+    #landingpage h3 {
+        font-size: 30px;
+    }
+    .nav-item .nav-link{
+        font-size: 12px;
+    }
+
+    #content {
+        padding: 5px !important;
+        text-align: center;
+    }
+
+    #content3 {
+        padding: 10px !important;
+        text-align: center;
+    }
+
+    #footer {
+        text-align: center;
+    }
+}
